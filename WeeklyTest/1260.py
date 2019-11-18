@@ -1,10 +1,13 @@
+"""
+1260. Shift 2D Grid
+
 Problem Link:
   https://leetcode.com/problems/shift-2d-grid/
   
 Thought:
   Easy simulation solution.
 
-Solution in Python:
+"""
 
   class Solution:
       def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
