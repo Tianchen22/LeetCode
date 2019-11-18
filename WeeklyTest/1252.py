@@ -1,10 +1,13 @@
+"""
+Cells with Odd Values in a Matrix    
+
 Problem link:
   https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
 
 Thought:
   Just simulation using two arrays as rows and columns
+"""
 
-Solution using Python:
   def oddCells(self, n: int, m: int, indices: List[List[int]]) -> int:
       listn = [0 for i in range(n)]
       listm = [0 for i in range(m)]

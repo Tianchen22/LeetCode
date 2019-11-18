@@ -1,3 +1,6 @@
+"""
+Reconstruct a 2-Row Binary Matrix    
+
 Problem Link:
 https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/
 
@@ -7,8 +10,8 @@ Thought:
   if colsum == 1, then either upper or lower minus one
   First loop to solve all the colsum two, and then solve the colsum one
   if lower and upper is smaller than 0, return null 
-  
-Solution using Python:
+"""  
+
   def reconstructMatrix(self, upper: int, lower: int, colsum: List[int]) -> List[List[int]]:
         length = len(colsum)
         res = [[0 for i in range(length)] for j in range(2)]

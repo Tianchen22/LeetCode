@@ -1,3 +1,6 @@
+"""
+1247 Minimum Swaps to Make Strings Equal   
+
 Problem link:
   https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
   
@@ -7,8 +10,8 @@ Thought:
   the res plus the half of x and y,
   if x and y all left 1, res plus 2,
   if x and y total left 1, then the result is not doable.
+"""
   
-Solution in Python:
   def minimumSwap(self, s1: str, s2: str) -> int:
         if (len(s1)!= len(s2)):
             return -1

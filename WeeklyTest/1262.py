@@ -1,11 +1,14 @@
+"""
+1262. Greatest Sum Divisible by Three
+
 Problem link:
   https://leetcode.com/problems/greatest-sum-divisible-by-three/
   
 Thought:
   if the sum reminder left 1, just minus one number left 1(module 3) or two number left 2(module 3)
   if the sum reminder left 2, just minus one number left 2(module 3) or two number left 1(module 3) 
-  
-Solution in Python:
+"""
+
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:
         num,res = 0,0

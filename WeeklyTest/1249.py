@@ -1,12 +1,15 @@
+"""
+1249 Minimum Remove to Make Valid Parentheses    
+
 Problem link:
   https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
   
 Thought:
   Loop twice, one from left to right and one from right to left.
   to check if the brackets are matched, if the bracket is not matched, then ignore it.
+"""
 
-Solution in Python:
-    def minRemoveToMakeValid(self, s: str) -> str:        
+  def minRemoveToMakeValid(self, s: str) -> str:        
         count = 0
         res,res2 = [] , []
         for x in s:

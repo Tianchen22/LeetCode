@@ -1,11 +1,13 @@
+"""
+1261. Find Elements in a Contaminated Binary Tree
+
 Problem Link:
   https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
   
 Thought:
   initialize the tree,record all the shown value to an list.
   then just check if the target is in the list.
-  
-Solution in Python:
+"""
   # Definition for a binary tree node.
   # class TreeNode:
   #     def __init__(self, x):

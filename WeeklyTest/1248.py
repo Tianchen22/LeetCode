@@ -1,3 +1,6 @@
+"""
+  1248 Count Number of Nice Subarrays    
+  
 Problem link:
   https://leetcode.com/problems/count-number-of-nice-subarrays/
   
@@ -5,7 +8,8 @@ Thought:
   record the index of every odd position.
   ....using combination to sum the position between k
   
-Solution in Python:
+"""
+
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
         count = []
         for i,c in enumerate(nums):
